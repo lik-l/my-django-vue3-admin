@@ -4,7 +4,7 @@
 
 ## 源码地址
 
-github地址：[https://github.com/huge-dream/django-vue3-admin](https://github.com/huge-dream/django-vue3-admin)👩‍👦‍👦
+github地址：https://github.com/lik-l/my-django-vue3-admin.git
 
 ## 准备工作
 ~~~
@@ -17,7 +17,7 @@ Redis
 
 ```bash
 # 克隆项目
-git clone https://gitee.com/huge-dream/django-vue3-admin.git
+https://github.com/lik-l/my-django-vue3-admin.git
 
 # 进入项目目录
 cd web
