@@ -7,3 +7,4 @@
 web/package-lock.json
 
 *.bat
+venv/

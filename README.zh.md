@@ -147,8 +147,8 @@ yarn build
 
 ~~~bash
 1. 进入项目目录 cd backend
-2. 在项目根目录中，复制 ./conf/env.example.py 文件为一份新的到 ./conf 文件夹下，并重命名为 env.py
-3. 在 env.py 中配置数据库信息
+2. 在项目根目录中，复制 ./conf/env.example.py 文件为一份新的到 ./conf 文件夹下，并重命名为 env.example.py
+3. 在 env.example.py 中配置数据库信息
 	mysql数据库版本建议：8.0
 	mysql数据库字符集：utf8mb4
 4. 安装依赖环境

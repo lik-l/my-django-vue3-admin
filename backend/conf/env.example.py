@@ -21,7 +21,7 @@ DATABASE_PORT = 3306
 # # 数据库用户名
 DATABASE_USER = "root"
 # # 数据库密码
-DATABASE_PASSWORD = 'DVADMIN3'
+DATABASE_PASSWORD = '123456'  #(自己的密码)
 
 # 表前缀
 TABLE_PREFIX = "dvadmin_"

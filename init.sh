@@ -15,11 +15,11 @@ else
     echo "REDIS_PASSWORD=$REDIS_PASSWORD" >> "$ENV_FILE"
     echo "REDIS随机密码已生成并写入 $ENV_FILE 文件。"
     
-    awk 'BEGIN { cmd="cp -i ./backend/conf/env.example.py   ./backend/conf/env.py "; print "n" |cmd; }'
-    sed -i "s|DATABASE_HOST = '127.0.0.1'|DATABASE_HOST = '$HOST'|g" ./backend/conf/env.py
-    sed -i "s|REDIS_HOST = '127.0.0.1'|REDIS_HOST = '177.10.0.15'|g" ./backend/conf/env.py
-    sed -i "s|DATABASE_PASSWORD = 'DVADMIN3'|DATABASE_PASSWORD = '$MYSQL_PASSWORD'|g" ./backend/conf/env.py
-    sed -i "s|REDIS_PASSWORD = 'DVADMIN3'|REDIS_PASSWORD = '$REDIS_PASSWORD'|g" ./backend/conf/env.py
+    awk 'BEGIN { cmd="cp -i ./backend/conf/env.example.py   ./backend/conf/env.example.py "; print "n" |cmd; }'
+    sed -i "s|DATABASE_HOST = '127.0.0.1'|DATABASE_HOST = '$HOST'|g" ./backend/conf/env.example.py
+    sed -i "s|REDIS_HOST = '127.0.0.1'|REDIS_HOST = '177.10.0.15'|g" ./backend/conf/env.example.py
+    sed -i "s|DATABASE_PASSWORD = 'DVADMIN3'|DATABASE_PASSWORD = '$MYSQL_PASSWORD'|g" ./backend/conf/env.example.py
+    sed -i "s|REDIS_PASSWORD = 'DVADMIN3'|REDIS_PASSWORD = '$REDIS_PASSWORD'|g" ./backend/conf/env.example.py
     echo "初始化密码创建成功"
 fi
 
